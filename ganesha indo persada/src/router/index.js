@@ -1,9 +1,12 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
+import HomeLayout from '../layout/HomeLayout.vue'
+
 const routes = [
     {
         path: '/',
-        name: 'Dashboard',
+        name: 'Home',
+        component: HomeLayout
     }
 ]
 
